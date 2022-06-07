@@ -99,18 +99,46 @@ export class ExpenseListFilters extends React.Component {
                     <div className="input-group__item">
                     </div>
                 </div>
-                <div className="list-header">
-                    <p className="show-for-desktop"> BRAND</p>
-                    <p className="show-for-desktop">ITEM</p>
-                    <p className="show-for-desktop">CPU</p>
-                    <p className="show-for-desktop">RAM</p>
-                    <p className="show-for-desktop">HARD DISK</p>
-                    <p className="show-for-desktop">GRAPHICS</p>
-                    <p className="show-for-desktop">SCREEN SIZE</p>
-                    <p className="show-for-desktop">SCREEN TYPE</p>
-                    <p className="show-for-desktop">QTY</p>
-                    <p className="show-for-desktop">Price</p>
+                <div class="table-box">
+                <div class="table-row table-head">
+                    <div class="table-cell first-cell">
+                        <p>BRAND</p>
+                    </div>
+                    <div class="table-cell">
+                        <p>MODEL</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                        <p>CPU</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                        <p>GEN</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                        <p>RAM</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                        <p>HARD</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                        <p>GRAHICS</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                        <p>SIZE</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                        <p>COLOR</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                        <p>QTY</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                        <p>PRICE</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                    <p>NOTE</p>
                 </div>
+                </div>
+            </div>
             </div>
         )
     }

@@ -20,9 +20,6 @@ export const Header = ({ startLogout }) => {
                     <img data-aos="fade-right" data-aos-duration="1000" className="logo" src={logo}/>
                      <h1 data-aos="fade-right" data-aos-duration="1000">Naruto</h1>
                 </Link>
-                <div className="social_icons">
-                    <img src={card} />
-                </div>
             </div>
         </div>
     </header>

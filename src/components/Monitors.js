@@ -68,7 +68,7 @@ export class AllProduct extends React.Component {
     }
   render() {
     return (
-            <div className="content-container">
+            <div className="">
             
             <div className="input-group">
             <div className="input-group__item">
@@ -99,6 +99,46 @@ export class AllProduct extends React.Component {
             <div className="input-group__item">
             </div>
             </div>
+            <div class="table-box">
+            <div class="table-row table-head">
+                <div class="table-cell first-cell">
+                    <p>BRAND</p>
+                </div>
+                <div class="table-cell">
+                    <p>MODEL</p>
+                </div>
+                <div class="table-cell last-cell">
+                    <p>CPU</p>
+                </div>
+                <div class="table-cell last-cell">
+                    <p>GEN</p>
+                </div>
+                <div class="table-cell last-cell">
+                    <p>RAM</p>
+                </div>
+                <div class="table-cell last-cell">
+                    <p>HARD</p>
+                </div>
+                <div class="table-cell last-cell">
+                    <p>GRAHICS</p>
+                </div>
+                <div class="table-cell last-cell">
+                    <p>SIZE</p>
+                </div>
+                <div class="table-cell last-cell">
+                    <p>COLOR</p>
+                </div>
+                <div class="table-cell last-cell">
+                    <p>QTY</p>
+                </div>
+                <div class="table-cell last-cell">
+                    <p>PRICE</p>
+                </div>
+                <div class="table-cell last-cell">
+                <p>NOTE</p>
+            </div>
+            </div>
+        </div>
             </div>
         )
         }

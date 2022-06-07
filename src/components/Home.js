@@ -27,7 +27,7 @@ function Home() {
         <Link to="/home/gaming" className={splitlocation[1] === "gaming" ? "active1" : "link1"}>Gaming PCs</Link>
         <Link to="/home/accessories" className={splitlocation[1] === "accessories" ? "active1" : "link1"}>Accessories</Link>
         <Link to="/home/allinone" className={splitlocation[1] === "allinone" ? "active1" : "link1"}>All In One</Link>
-        <Link to="/home/software" className={splitlocation[1] === "software" ? "active1" : "link1"}>Software</Link>
+        <Link to="/home/software" className={splitlocation[1] === "software" ? "active1" : "link1"}>Apple</Link>
       </div>
       <Switch>
         <Route path="/home/laptop">
@@ -56,6 +56,9 @@ function Home() {
         </Route>
       </Switch>
       <ExpenseList />
+
+      <div class="elfsight-app-08c6a049-5a9a-4ac8-ac5a-540f66cd8f8d"></div>
+      <div class="elfsight-app-6f84af5c-a4b4-4a56-9624-b7e0bed23957"></div>
 
     </div>
   );

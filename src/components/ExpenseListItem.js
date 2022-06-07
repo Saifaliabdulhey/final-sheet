@@ -39,11 +39,23 @@ export class ExpenseListItem extends Component {
 
       <Link className="list" to={`/edit/${this.props.id}`}>
         <div class="table-row">
-          <div class="table-cell first-cell">
-            <p>{this.props.description}</p>
+          <div class="table-cell brand first-cell">
+            <p>HP</p>
           </div>
           <div class="table-cell">
-            <p>999</p>
+            <p>{this.props.description}</p>
+          </div>
+          <div class="table-cell last-cell">
+            <a href="https://youtu.be/99vHH_6F0Ko">{this.props.cpu}</a>
+          </div>
+          <div class="table-cell last-cell">
+            <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
+          </div>
+          <div class="table-cell last-cell">
+            <a href="https://youtu.be/99vHH_6F0Ko">{this.props.ram}</a>
+          </div>
+          <div class="table-cell last-cell">
+            <a href="https://youtu.be/99vHH_6F0Ko">{this.props.storage}</a>
           </div>
           <div class="table-cell last-cell">
             <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
@@ -58,16 +70,10 @@ export class ExpenseListItem extends Component {
             <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
           </div>
           <div class="table-cell last-cell">
-            <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
+            <a class="price" href="https://youtu.be/99vHH_6F0Ko">1,400$</a>
           </div>
           <div class="table-cell last-cell">
-            <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
-          </div>
-          <div class="table-cell last-cell">
-            <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
-          </div>
-          <div class="table-cell last-cell">
-            <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
+            <a  href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
           </div>
 
         </div>

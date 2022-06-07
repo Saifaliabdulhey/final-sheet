@@ -100,35 +100,41 @@ export class ExpenseListFilters extends React.Component {
                 <div class="table-box">
                     <div class="table-row table-head">
                         <div class="table-cell first-cell">
-                            <p>Easy Tutorials Videos</p>
+                            <p>BRAND</p>
                         </div>
                         <div class="table-cell">
-                            <p>Likes</p>
+                            <p>MODEL</p>
                         </div>
                         <div class="table-cell last-cell">
-                            <p>YouTube Link</p>
+                            <p>CPU</p>
                         </div>
                         <div class="table-cell last-cell">
-                            <p>YouTube Link</p>
+                            <p>GEN</p>
                         </div>
                         <div class="table-cell last-cell">
-                            <p>YouTube Link</p>
+                            <p>RAM</p>
                         </div>
                         <div class="table-cell last-cell">
-                            <p>YouTube Link</p>
+                            <p>HARD</p>
                         </div>
                         <div class="table-cell last-cell">
-                            <p>YouTube Link</p>
+                            <p>GRAHICS</p>
                         </div>
                         <div class="table-cell last-cell">
-                            <p>YouTube Link</p>
+                            <p>SIZE</p>
                         </div>
                         <div class="table-cell last-cell">
-                            <p>YouTube Link</p>
+                            <p>COLOR</p>
                         </div>
                         <div class="table-cell last-cell">
-                            <p>YouTube Link</p>
+                            <p>QTY</p>
                         </div>
+                        <div class="table-cell last-cell">
+                            <p>PRICE</p>
+                        </div>
+                        <div class="table-cell last-cell">
+                        <p>NOTE</p>
+                    </div>
                     </div>
                 </div>
             </div>
