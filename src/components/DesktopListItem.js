@@ -67,15 +67,7 @@ export class ExpenseListFilters extends React.Component {
 
             <div>
                 <div className="input-group">
-                    <div className="input-group__item">
-                        <img className="search_img" src={search} />
-                        <input
-                            className="search-input"
-                            placeholder="Search for Desktop"
-                            type='text'
-                            value={this.props.filters.text}
-                            onChange={this.onTextChange} />
-                    </div>
+c
 
                     <div className="input-group__item">
                         <select className="select" onChange={this.onSortChange}>

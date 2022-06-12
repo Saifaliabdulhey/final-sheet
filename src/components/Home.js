@@ -1,7 +1,8 @@
 import React from "react";
 import ExpenseList from "./ExpenseList";
 import ExpenseListFilters from "./ExpenseListFilters";
-import DesktopListItem from './DesktopListItem';
+import MonitorList from './ItemLists/MonitorList';
+import DesktopListItem from './DesktopListItem'
 import { Link, Switch, Route, useRouteMatch, useLocation } from 'react-router-dom'
 import Footer from './Footer'
 import AllProduct from './AllProducts'
@@ -32,15 +33,18 @@ function Home() {
       <Switch>
         <Route path="/home/laptop">
           <AllProduct />
+          <ExpenseList />
         </Route>
         <Route path='/home/desktop'>
           <DesktopListItem />
+          <ExpenseList />
         </Route>
         <Route path="/home/usedlaptop">
           <UsedLaptop />
         </Route>
         <Route path="/home/monitors">
           <Monitors />
+          <MonitorList />
         </Route>
         <Route path="/home/gaming">
           <Gaming />
@@ -55,7 +59,6 @@ function Home() {
           <Software />
         </Route>
       </Switch>
-      <ExpenseList />
 
       <div class="elfsight-app-08c6a049-5a9a-4ac8-ac5a-540f66cd8f8d"></div>
       <div class="elfsight-app-6f84af5c-a4b4-4a56-9624-b7e0bed23957"></div>
