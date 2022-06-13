@@ -38,42 +38,35 @@ export class MonitorListItem extends Component {
     return (
 
       <Link className="list" to={`/edit/${this.props.id}`}>
-      <div class="table-box">
       <div class="table-row">
-          <div class="table-cell first-cell">
-              <p>{this.props.img}</p>
-          </div>
-          <div class="table-cell">
-              <p>49 inch</p>
-          </div>
-          <div class="table-cell last-cell">
-              <p>{this.props.description}</p>
-          </div>
-          <div class="table-cell last-cell">
-              <p>240Hz</p>
-          </div>
-
-          <div class="table-cell last-cell">
-              <p>CURVED</p>
-          </div>
-
-          <div class="table-cell last-cell">
-              <p>1MS</p>
-          </div>
-
-          <div class="table-cell last-cell">
-              <p>VA</p>
-          </div>
-          <div class="table-cell last-cell brand">
-              <p>{this.props.amount}</p>
-          </div>
-
-          <div class="table-cell last-cell">
-              <p>VA</p>
-          </div>
-
+      <div class="table-cell brand first-cell">
+        <p>HP</p>
       </div>
-  </div>
+      <div class="table-cell">
+        <p>{this.props.description}</p>
+      </div>
+      <div class="table-cell last-cell">
+        <a href="https://youtu.be/99vHH_6F0Ko">{this.props.cpu}</a>
+      </div>
+      <div class="table-cell last-cell">
+        <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
+      </div>
+      <div class="table-cell last-cell">
+        <a href="https://youtu.be/99vHH_6F0Ko">{this.props.ram}</a>
+      </div>
+      <div class="table-cell last-cell">
+        <a href="https://youtu.be/99vHH_6F0Ko">{this.props.storage}</a>
+      </div>
+      <div class="table-cell last-cell">
+        <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
+      </div>
+      <div class="table-cell last-cell">
+        <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
+      </div>
+      <div class="table-cell last-cell">
+        <a href="https://youtu.be/99vHH_6F0Ko">Watch Now</a>
+      </div>
+    </div>
       </Link>
 
     )
